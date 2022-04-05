@@ -1,41 +1,41 @@
 [
     {
-        "name": "Mar",
+        "name": "Niloy dey",
         "id": 100000,
         "ratings": 3.5 ,
         "comment": "It is the best desktop pc in the year "
     },
     {
-        "name": "Mar",
-        "id": 100000,
-        "ratings": 3.5 ,
-        "comment": "It is the best desktop pc in the year "
-    },
-    {
-       
-        "name": "Mar",
-        "id": 100000,
-        "ratings": 3.5 ,
-        "comment": "It is the best desktop pc in the year "
+        "name": "Dipto shaha",
+        "id": 200000,
+        "ratings": 3 ,
+        "comment": "hp brand desktop is always best"
     },
     {
        
-        "name": "Mar",
-        "id": 100000,
-        "ratings": 3.5 ,
-        "comment": "It is the best desktop pc in the year "
+        "name": "Ananya Das",
+        "id": 300000,
+        "ratings": 5.5 ,
+        "comment": "This product is very beautiful and work is vey smoothly"
     },
     {
        
-        "name": "Mar",
-        "id": 100000,
-        "ratings": 3.5 ,
-        "comment": "It is the best desktop pc in the year "
+        "name": "Avishek devnath",
+        "id": 400000,
+        "ratings": 2.5 ,
+        "comment": "buy this pc next month. it work is wonderful "
     },
     {
-        "name": "Mar",
-        "id": 100000,
-        "ratings": 3.5 ,
-        "comment": "It is the best desktop pc in the year "
+       
+        "name": "Md Robin ",
+        "id": 500000,
+        "ratings": 5 ,
+        "comment": "hp pc is very beautiful"
+    },
+    {
+        "name": "Nishan chowdhury",
+        "id": 600000,
+        "ratings": 1.7 ,
+        "comment": "this pc configaration  is vey high"
     }
 ]
