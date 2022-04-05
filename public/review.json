@@ -2,40 +2,40 @@
     {
         "name": "Niloy dey",
         "id": 100000,
-        "ratings": 3.5 ,
+        "ratings": "3.5k",
         "comment": "It is the best desktop pc in the year "
     },
     {
         "name": "Dipto shaha",
         "id": 200000,
-        "ratings": 3 ,
+        "ratings": "3k",
         "comment": "hp brand desktop is always best"
     },
     {
        
         "name": "Ananya Das",
         "id": 300000,
-        "ratings": 5.5 ,
+        "ratings": "5.5k" ,
         "comment": "This product is very beautiful and work is vey smoothly"
     },
     {
        
         "name": "Avishek devnath",
         "id": 400000,
-        "ratings": 2.5 ,
+        "ratings": "2.5k" ,
         "comment": "buy this pc next month. it work is wonderful "
     },
     {
        
         "name": "Md Robin ",
         "id": 500000,
-        "ratings": 5 ,
+        "ratings":" 5 k",
         "comment": "hp pc is very beautiful"
     },
     {
         "name": "Nishan chowdhury",
         "id": 600000,
-        "ratings": 1.7 ,
+        "ratings": "1.7k" ,
         "comment": "this pc configaration  is vey high"
     }
 ]
