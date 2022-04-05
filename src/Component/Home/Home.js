@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import image from '../../Image/computer-1.png'
 import './Home.css';
 const Home = () => {
+
+    const [hook, setHook] = useState();
     return (
         <div>
             <div className='home-container mt-28 mx-20'>
@@ -19,7 +21,9 @@ const Home = () => {
                     <img className='image-design' src={image} alt="" />
                 </div>
             </div>
-
+ {/* ======================================================
+                review container start here 
+ ========================================================== */}
             <div className='customer-review-container text-center'>
                 <h1 className='text-4xl  font-bold  mt-40 mb-10'>Customer Review </h1>
                 <div className='some-reviews '>
