@@ -9,8 +9,9 @@ const Dashbord = () => {
             .then(data => setData(data));
     }, [])
     return (
-        <div className='flex justify-between m-20'>
-            <div>
+        <div className='mt-40'>
+            <div className='flex justify-between '>
+            <div className=''>
                 <BarChart width={730} height={250} data={data}>
                     <CartesianGrid strokeDasharray="3 3" />
                     <XAxis dataKey="month" />
@@ -30,6 +31,7 @@ const Dashbord = () => {
                 </PieChart>
                 <h1 className='text-center font-bold text-green-500 text-2xl '> <u>Pie chart</u></h1>
             </div>
+        </div>
         </div>
     );
 };

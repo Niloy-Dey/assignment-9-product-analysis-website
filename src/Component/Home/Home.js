@@ -1,9 +1,19 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import image from '../../Image/computer-1.png'
+import useReview from '../../useReview/useReview';
+import HomeReview from '../HomeReview/HomeReview';
 import './Home.css';
 const Home = () => {
 
-    const [hook, setHook] = useState();
+    const [hook, setHook] = useReview();
+    const someReview = hook.slice(0, 3);
+
+    let navigate = useNavigate();
+    const seeAllReview = () =>{
+        let path = '/Reviews';
+        navigate(path);
+    }
     return (
         <div>
             <div className='home-container mt-28 mx-20'>
@@ -24,12 +34,16 @@ const Home = () => {
  {/* ======================================================
                 review container start here 
  ========================================================== */}
-            <div className='customer-review-container text-center'>
-                <h1 className='text-4xl  font-bold  mt-40 mb-10'>Customer Review </h1>
+            <div className='customer-review-container '>
+                <h1 className='text-4xl text-center  font-bold  mt-40 mb-10'>Customer Review </h1>
                 <div className='some-reviews '>
-
+                        {
+                            someReview.map(hr => <HomeReview key={hr.id} hr={hr}></HomeReview> )
+                        } 
                 </div>
-                <button className='text-bold text-white bg-blue-400 p-3 rounded-lg text-xl my-6 '>See All Reviews </button>
+                <div className='text-center'>
+                <button onClick={seeAllReview} className='text-bold  text-white bg-blue-400 p-3 rounded-lg text-xl my-6 '>See All Reviews </button>
+                </div>
             </div>
         </div>
     );
